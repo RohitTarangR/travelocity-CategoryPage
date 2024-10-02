@@ -1,0 +1,140 @@
+:root{
+  --white: #ffffff;
+  --ghost_white: #fafafa;
+  --mercury: #E3E3E3;
+  --platinum: #E3E3E3;
+  --timberwolf: #D9D9D9;
+  --cotton_seed: #BCBCBC;
+  --silver_chalice: #ABABAB;
+  --grey_chateau: #A7A7AA;
+  --cool_grey: #9CA3AF;
+  --bright_gray:#374151;
+  --black_cow: #474747;
+  --gun_powder: #374151;
+  --blue_dianne: #244554;
+  --thunder: #342929;
+  --heavy_metal: #2E2B2B;
+  --dark_jungle_green: #242525;
+  --glacier: #7BAED4;
+  --hover_blue: #4a7ded;
+  --blue: #2563EB;
+  --light_gold:#F6E05E;
+  --artyclick_orange: #FF7F0A;
+  --orange: #f16d00;
+  --red: #DC2626;
+  --black: #000000;
+  --brown: #945454;
+  --lightgreen: #53A828;
+  --lavender: #CE64D4;
+  --pink: #EF3DFF;
+  --yellow: #FFD500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+  url('../fonts/Poppins-Regular.woff') format('woff'),
+  url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+  url('../fonts/Poppins-Medium.woff') format('woff'),
+  url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  display: swap;
+}
+
+@font-face {
+  font-family:  'Poppins';
+  src: url('../fonts/Poppins-SemiBold.woff') format('woff'),
+  url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+  url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  display: swap;
+}
+
+@font-face{
+  font-family: 'Poppins';
+  src: url('../fonts//Poppins-Bold.woff2') format('woff2'),
+  url('../fonts/Poppins-Bold.woff') format('woff'), 
+  url('../fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  display: swap;
+}
+
+@font-face {
+  font-family: font-awesome;
+  src: url('../fonts/font-awesome/fontawesome-webfont.woff2') format('woff2'),
+  url('../fonts/font-awesome/fontawesome-webfont.woff') format('woff'),
+  url('../fonts/font-awesome/fontawesome-webfont.ttf') format('ttf');
+  display: swap;
+  font-weight: 500;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul,li,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p,dl,dt{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.orange_btn {
+  color: var(--white);
+  background-color: var(--artyclick_orange);
+  max-width: 182px;
+  width: 100%;
+  height: 56px;
+  border-radius: 30px;
+  padding: 16px, 44px, 16px, 44px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 24px 0 80px 0;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.slick-next::before, .slick-prev::before{
+  font-family: "font-awesome";
+}
+
+
+
+
